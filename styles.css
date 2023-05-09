@@ -1,0 +1,220 @@
+body{
+    align-items:center;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.container{
+    width:700px;
+    height:500px;
+    background:rgb(255, 255, 255);
+    position:relative;
+    top:90px;
+    left:450px;
+    border-radius:30px;
+    box-shadow: 10px 10px 30px rgb(206, 211, 236);
+}
+
+.result{
+    width:350px;
+    height:500px;
+    background: linear-gradient(to bottom, hsl(252, 100%, 67%) 0%, hsl(241, 81%, 54%) 100%);
+    border-radius:30px;
+}
+
+.circle{
+    width:150px;
+    height:150px;
+    border-radius:100px;
+    background: linear-gradient(to top, hsla(241, 72%, 46%, 0) 0%, hsla(256, 72%, 46%, 1) 100%);
+    position:relative;
+    top:55px;
+    left:100px;
+}
+
+.title{
+    color:rgb(189, 193, 202);
+    position:relative;
+    top:35px;
+    left:110px;
+}
+
+.total{
+     color:white;
+    text-align:center;
+    position:relative;
+    top:17px;
+    font-size:60px;
+}
+
+#out-of{
+     color:rgb(153, 158, 170);
+    text-align:center;
+    position:relative;
+    bottom:30px;
+}
+
+.congrats{
+    color:white;
+    font-size:30px;
+    position:relative;
+    text-align:center;
+    top:50px;
+}
+
+#info{
+    color:rgb(185, 190, 201);
+    font-size:18px;
+
+}
+
+.info{
+    width:250px;
+    text-align:center;
+    position:relative;
+    left:45px;
+    top:40px;
+}
+
+.summary{
+    position:relative;
+    bottom:486px;
+    left:380px;
+}
+
+.child{
+    width:280px;
+    margin-bottom:20px;
+    height:50px;
+    border-radius:10px;
+    
+}
+
+#reaction{
+    background-color:rgba(255, 171, 170, 0.449);
+}
+
+#memory{
+    background-color:hsla(38, 83%, 86%, 0.597);
+}
+
+#verbal{
+    background:hsla(165, 65%, 88%, 0.74);
+}
+
+#visual{
+    background-color:hsla(235, 100%, 87%, 0.422);
+}
+
+img{
+    position:relative;
+    top:15px;
+    left:10px;
+}
+.rea-desc{
+    color:hsl(0, 100%, 67%);
+    position:relative;
+    bottom:28px;
+    left:40px;
+}
+
+.left{
+    position:relative;
+    left:100px;
+    color:black;
+}
+
+.mem-desc{
+    color:hsl(39, 100%, 56%);
+    position:relative;
+    bottom:28px;
+    left:40px;
+}
+
+.ver-desc{
+    color:hsl(166, 100%, 37%);
+    position:relative;
+    bottom:28px;
+    left:40px;
+}
+
+.left1{
+    position:relative;
+    left:115px;
+    color:black;
+}
+
+.vis-desc{
+    color:hsl(224, 30%, 27%);
+    position:relative;
+    bottom:28px;
+    left:40px;
+}
+
+.button {
+    border-radius: 100px;
+    background-color: #2b0c59;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 28px;
+    padding: 20px;
+    width: 280px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+  }
+  
+  .button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .button:hover span {
+    padding-right: 25px;
+  }
+  
+  .button:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+
+#mem{
+    position:relative;
+    bottom:63px;
+    left:200px;
+}
+
+#rea{
+    position:relative;
+    bottom:63px;
+    left:200px;
+}
+
+#ver{
+    position:relative;
+    bottom:63px;
+    left:200px;
+}
+
+#vis{
+    position:relative;
+    bottom:63px;
+    left:200px;
+}
+
+
+
+
+
+
